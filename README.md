@@ -1,8 +1,8 @@
-# ClyvoVet
+# SuperVet
 
 ## Descrição da Solução
 
-O **ClyvoVet** é uma plataforma digital que integra a comunicação entre tutores de animais e médicos veterinários, resolvendo o problema de históricos médicos fragmentados e do cuidado exclusivamente reativo. A solução centraliza a gestão de **prontuários**, **agendamentos** e **monitoramento preventivo (vacinas)**, oferecendo:
+O **SuperVet** é uma plataforma digital que integra a comunicação entre tutores de animais e médicos veterinários, resolvendo o problema de históricos médicos fragmentados e do cuidado exclusivamente reativo. A solução centraliza a gestão de **prontuários**, **agendamentos** e **monitoramento preventivo (vacinas)**, oferecendo:
 
 - Para os **tutores**: acompanhamento da saúde dos pets, histórico de vacinas e consultas.
 - Para os **veterinários**: organização de fluxos clínicos, agenda e prontuários dos pacientes.
@@ -98,8 +98,6 @@ az sql server firewall-rule create \
   --end-ip-address 255.255.255.255
 ```
 
-> Caso precise acessar de sua máquina local para testes, adicione uma regra específica com o seu IP público, evitando liberar o range completo (`0.0.0.0`–`255.255.255.255`).
-
 ### 7. Executar o DDL do banco de dados
 
 ```bash
@@ -178,7 +176,7 @@ https://app-clyvovet.azurewebsites.net
 
 ## Vídeo de Demonstração
 
-Link do vídeo no YouTube: `<LINK_DO_VIDEO>`
+Link do vídeo no YouTube: [`<LINK_DO_VIDEO>`](https://youtu.be/6QHIrIeWvVE)
 
 ## Repositórios
 
